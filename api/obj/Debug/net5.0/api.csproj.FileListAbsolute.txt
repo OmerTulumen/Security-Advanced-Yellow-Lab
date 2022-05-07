@@ -36,3 +36,41 @@ C:\Users\Sam\Documents\PXL\Security Advanced\2122\Lab Yellow Team\api\bin\Debug\
 C:\Users\Sam\Documents\PXL\Security Advanced\2122\Lab Yellow Team\api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Sam\Documents\PXL\Security Advanced\2122\Lab Yellow Team\api\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Sam\Documents\PXL\Security Advanced\2122\Lab Yellow Team\api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\appsettings.json
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\api.exe
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\api.deps.json
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\api.runtimeconfig.json
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\api.runtimeconfig.dev.json
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\api.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\ref\api.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\api.pdb
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\CsvHelper.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.csproj.AssemblyReference.cache
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.AssemblyInfoInputs.cache
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.AssemblyInfo.cs
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.csproj.CoreCompileInputs.cache
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\staticwebassets\api.StaticWebAssets.Manifest.cache
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\staticwebassets\api.StaticWebAssets.xml
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\scopedcss\bundle\api.styles.css
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.RazorTargetAssemblyInfo.cache
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.csproj.CopyComplete
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\ref\api.dll
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.pdb
+C:\Users\echig\Desktop\SECURITY\Security-Advanced-Yellow-Lab\api\obj\Debug\net5.0\api.genruntimeconfig.cache

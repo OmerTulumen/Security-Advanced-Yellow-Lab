@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\api.csproj": {}
+    "C:\\Users\\echig\\Desktop\\SECURITY\\Security-Advanced-Yellow-Lab\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\api.csproj": {
+    "C:\\Users\\echig\\Desktop\\SECURITY\\Security-Advanced-Yellow-Lab\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\echig\\Desktop\\SECURITY\\Security-Advanced-Yellow-Lab\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sam\\Documents\\PXL\\Security Advanced\\2122\\Lab Yellow Team\\api\\obj\\",
+        "projectPath": "C:\\Users\\echig\\Desktop\\SECURITY\\Security-Advanced-Yellow-Lab\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\echig\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\echig\\Desktop\\SECURITY\\Security-Advanced-Yellow-Lab\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\echig\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
