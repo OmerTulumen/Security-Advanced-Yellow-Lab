@@ -27,7 +27,11 @@ De wep app (`http://localhost:8080`) stuurt een request naar ons api endpoint (`
 
 ![task](./task.png) Zoek eens op wat CORS betekent. Probeer ook te achterhalen hoe we dat zouden kunnen oplossen.
 
+Antwoord: CORS staat voor 'Cross-Origin Resource Sharing'. Browsers hebben een beveiligings feature genaamd 'Same Origin Policy' waarbij calls die gemaakt worden van dezelfde origin toegestaan worden en andere origins niet toegestaan zijn. Om van dezelfde origin te spreken moeten de scheme, host en port hetzelfde zijn.
+
 ![task](./task.png) Denk er aan dat de services draaien binnen een docker container. De web api draait binnen de docker container op `http://api:80`. De web app draait binnen de container op `http://web:80`. Betekent dit dat request eigenlijk gestuurd wordt van `http://web:80` naar `http://api:80`? Of van `http://localhost:8080` naar `http://api:80`? Of van `http://localhost:8080` naar `http://localhost:5000`?
+
+Antwoord: De request wordt verstuurd van http://localhost:8080 naar http://localhost:5000 maar wegens de origin verschillend is van waar we de gegevens opvragen krijgen we een CORS error.
 
 
 ## CORS Policy toevoegen
@@ -36,6 +40,8 @@ CORS staat voor Cross-Origin Resource sharing en is een beveiliging. Van welke u
 
 <b>LET OP!</b> 
 De oplossingen die je standaard online vindt zijn vaak oplossing die de CORS policy op `*` zetten. Dat wilt zeggen dat de api elke cross-origin request zou toestaan. Wat is het nadeel van deze manier van werken? Wanneer zou je beter werken met een vaste lijst? Wanneer doe je dat beter niet?
+
+Antwoord: Als je de policy op '*' zet laat je dus eigenlijk alle cross-origins toe. Dit betekent dat je in principe deze beveiligings feature uitzet. Dit betekent dat een ongewenste gebruiker de response ook mee kan lezen MAAR opzich is dit (in de meeste gevallen) niet echt een probleem.
 
 Wij gaan onze api instellen zodat die enkel requests mag ontvangen van onze web app. In de file `StartUp` voeg je een constante toe:
 
@@ -140,9 +146,13 @@ Kopieer de waarde van de access token. Surf naar https://jwt.ms. Paste de waarde
 
 ![task](./task.png) Waarom hebben we deze signature nodig? Wat is deze signature?
 
+Antwoord: Signature dient als een extra beveiliging. Via de signature weet men ofdat de er iets gewijzigd is of niet aan de data.
+
 Onder `iss` (kort voor issuer) vinden we terug dat de token uitgekeerd is door `http://localhost:5002`. Dit is informatie die door api gebruikt gaat worden om de token te valideren. We zien ook de `client_id`, `scope` en een expiration time (`exp`).
 
 ![task](./task.png) Waarom staat het `client_secret` niet in de token?
+
+Antwoord: Omdat de client secret alleen nodig is voor de client en identityserver.
 
 ## Access token opvragen via Web App
 
