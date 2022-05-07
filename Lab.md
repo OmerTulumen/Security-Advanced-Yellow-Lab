@@ -41,6 +41,8 @@ CORS staat voor Cross-Origin Resource sharing en is een beveiliging. Van welke u
 <b>LET OP!</b> 
 De oplossingen die je standaard online vindt zijn vaak oplossing die de CORS policy op `*` zetten. Dat wilt zeggen dat de api elke cross-origin request zou toestaan. Wat is het nadeel van deze manier van werken? Wanneer zou je beter werken met een vaste lijst? Wanneer doe je dat beter niet?
 
+Antwoord: Als je de policy op '*' zet laat je dus eigenlijk alle cross-origins toe. Dit betekent dat je in principe deze beveiligings feature uitzet. Dit betekent dat een ongewenste gebruiker de response ook mee kan lezen MAAR opzich is dit (in de meeste gevallen) niet echt een probleem.
+
 Wij gaan onze api instellen zodat die enkel requests mag ontvangen van onze web app. In de file `StartUp` voeg je een constante toe:
 
     private const string corsPolicy = "_allowSpecificOrigins";
