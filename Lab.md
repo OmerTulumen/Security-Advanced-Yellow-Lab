@@ -27,7 +27,11 @@ De wep app (`http://localhost:8080`) stuurt een request naar ons api endpoint (`
 
 ![task](./task.png) Zoek eens op wat CORS betekent. Probeer ook te achterhalen hoe we dat zouden kunnen oplossen.
 
+Antwoord: CORS staat voor 'Cross-Origin Resource Sharing'. Browsers hebben een beveiligings feature genaamd 'Same Origin Policy' waarbij calls die gemaakt worden van dezelfde origin toegestaan worden en andere origins niet toegestaan zijn. Om van dezelfde origin te spreken moeten de scheme, host en port hetzelfde zijn.
+
 ![task](./task.png) Denk er aan dat de services draaien binnen een docker container. De web api draait binnen de docker container op `http://api:80`. De web app draait binnen de container op `http://web:80`. Betekent dit dat request eigenlijk gestuurd wordt van `http://web:80` naar `http://api:80`? Of van `http://localhost:8080` naar `http://api:80`? Of van `http://localhost:8080` naar `http://localhost:5000`?
+
+Antwoord: De request wordt verstuurd van http://localhost:8080 naar http://localhost:5000 maar wegens de request origin verschillend is van de origin van waar we eht opvragen krijgen we een CORS Error.
 
 
 ## CORS Policy toevoegen
