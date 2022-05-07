@@ -31,7 +31,7 @@ Antwoord: CORS staat voor 'Cross-Origin Resource Sharing'. Browsers hebben een b
 
 ![task](./task.png) Denk er aan dat de services draaien binnen een docker container. De web api draait binnen de docker container op `http://api:80`. De web app draait binnen de container op `http://web:80`. Betekent dit dat request eigenlijk gestuurd wordt van `http://web:80` naar `http://api:80`? Of van `http://localhost:8080` naar `http://api:80`? Of van `http://localhost:8080` naar `http://localhost:5000`?
 
-Antwoord: De request wordt verstuurd van http://localhost:8080 naar http://localhost:5000 maar wegens de request origin verschillend is van de origin van waar we eht opvragen krijgen we een CORS Error.
+Antwoord: De request wordt verstuurd van http://localhost:8080 naar http://localhost:5000 maar wegens de origin verschillend is van waar we de gegevens opvragen krijgen we een CORS error.
 
 
 ## CORS Policy toevoegen
