@@ -152,7 +152,7 @@ Onder `iss` (kort voor issuer) vinden we terug dat de token uitgekeerd is door `
 
 ![task](./task.png) Waarom staat het `client_secret` niet in de token?
 
-Antwoord: Omdat de client secret alleen nodig is voor de client en authenticatieserver.
+Antwoord: Omdat de client secret alleen nodig is voor de client en identityserver.
 
 ## Access token opvragen via Web App
 
