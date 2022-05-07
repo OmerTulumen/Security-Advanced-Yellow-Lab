@@ -146,6 +146,8 @@ Kopieer de waarde van de access token. Surf naar https://jwt.ms. Paste de waarde
 
 ![task](./task.png) Waarom hebben we deze signature nodig? Wat is deze signature?
 
+Antwoord: Signature dient als een extra beveiliging. Via de signature weet men ofdat de er iets gewijzigd is of niet aan de data.
+
 Onder `iss` (kort voor issuer) vinden we terug dat de token uitgekeerd is door `http://localhost:5002`. Dit is informatie die door api gebruikt gaat worden om de token te valideren. We zien ook de `client_id`, `scope` en een expiration time (`exp`).
 
 ![task](./task.png) Waarom staat het `client_secret` niet in de token?
